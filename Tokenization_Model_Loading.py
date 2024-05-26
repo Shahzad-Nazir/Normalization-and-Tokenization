@@ -309,7 +309,7 @@ def all_feature_set(single_sentence):
 
 
 tag = pycrfsuite.Tagger()
-tag.open('urdu-word-segmentation.crfsuite')
+tag.open('UrduClassicTokenizer.crfsuite')
 
 def tokenize(input_text):
 
